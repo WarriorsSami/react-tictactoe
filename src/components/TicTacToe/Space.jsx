@@ -34,7 +34,7 @@ const Space = React.memo(
   (prevProps, nextProps) => prevProps.value === nextProps.value
 );
 
-Space.displayName = 'TicTacToeSpace';
+Space.displayName = 'Space';
 
 Space.propTypes = {
   value: PropTypes.number.isRequired,
